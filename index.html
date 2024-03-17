@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Getsion des etudiants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">ajouter étudiant</a></li>
+                <li><a href="afficher.html">afficher les etudiants</a></li>
+                <li><a href="rechercherE.html">rechercher un etudiant</a></li>
+                <li><a href="rechercherN.html">rechercher une note</a></li>
+                <li><a href="valider.html">afficher les etudiants validés</a></li>
+                <li><a href="nonValider.html">afficher les etudiants non validés</a></li>
+                <li><a href="supprimer.html">supprimer étudiant</a></li>
+            </ul>
+        </div>
+       <div class="traitement">
+            <div class="inputs">
+                <div>
+                    <input type="text" id="inputNom" placeholder="nom de l'étudiant">        
+                </div>
+                <div>
+                    <input type="text" id="inputPrenom" placeholder="prenom de l'étudiant">
+                </div>
+                <div>
+                    <input type="number" id="inputNote1" placeholder="note 1">
+                </div>
+                <div>
+                    <input type="number" id="inputNote2" placeholder="note 2">
+                </div> 
+                <div>
+                    <button onclick="ajouterEtudiant()">ajouter étudiant</button>
+                </div> 
+            </div>
+            <div class="interactionUser">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Note 1</th>
+                            <th>Note 2</th>
+                            <th>Moyenne</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    
+                    </tbody>
+                </table>
+            </div>
+       </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

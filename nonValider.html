@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Affichage des étudiants qui n'ont pas validé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">ajouter étudiant</a></li>
+                <li><a href="afficher.html">afficher les etudiants</a></li>
+                <li><a href="rechercherE.html">rechercher un etudiant</a></li>
+                <li><a href="rechercherN.html">rechercher une note</a></li>
+                <li><a href="valider.html">afficher les etudiants validés</a></li>
+                <li><a href="nonValider.html">afficher les etudiants non validés</a></li>
+                <li><a href="supprimer.html">supprimer étudiant</a></li>
+            </ul>
+        </div>
+       <div class="traitement">
+        <h2>Affichage des étudiants qui n'ont pas validé</h2>
+            <div class="interactionUser">
+                <table class="showTable ">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Note 1</th>
+                            <th>Note 2</th>
+                            <th>Moyenne</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody" class="NonValider">
+
+                    </tbody>
+                </table>
+            </div>
+       </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

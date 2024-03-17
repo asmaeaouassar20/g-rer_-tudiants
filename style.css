@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Original+Surfer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 242, 249);
+
+}
+.menu{
+    background-color: purple;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    font-size: 17px;
+    color: #fff;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul a{
+    text-decoration: none;
+    color:rgb(236, 160, 236);
+}
+.menu ul li{
+    margin: 50px 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.menu ul li:hover{
+    background-color: rgb(164, 50, 164);
+}
+.traitement{
+    width: 80%;
+    float: right;
+    margin-top: 30px;
+}
+.traitement.supp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.traitement button{
+    margin-top: 35px;
+    border: none;
+    padding: 8px 25px;
+    background-color: rgb(253, 179, 179);
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+.traitement button:hover{
+    background-color: rgb(245, 137, 137);
+
+}
+
+.traitement h2{
+    font-family: "EB Garamond", serif;
+    color: rgb(172, 7, 172);
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.inputs div{
+    width:60%;
+    text-align: center;
+}
+.inputs input{
+    margin: 2px;
+    border: none;
+    padding: 8px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: rgb(240, 208, 240);
+    outline:none ;
+}
+
+.inputs button{
+    border: none;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: rgb(89, 10, 89);
+    cursor: pointer;
+    box-shadow: 2px 5px 8px rgba(128, 0, 128, 0.458);
+}
+.inputs button:hover{
+    background-color: rgb(137, 24, 137); 
+}
+.interactionUser{
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table td,table th{
+    padding: 8px 28px;
+}
+
+/* ___________________________________________ */
+table{
+    border: 2px solid black;
+}
+table td{
+    border: 2px solid black;
+    
+}
+
+
+/* .................................................. */
+.showTable{
+    margin-top: 80px;
+    border: none;
+}
+.showTable th{
+    color: purple;
+    font-size: 18px;
+}
+.showTable td{
+    border: 1px dashed rgb(201, 101, 255);
+    
+}
+/* .................................................. */
+
+.traitement h2{
+    text-align: center;
+    margin-top: 50px;
+}
+/* .................................................. */
+
+
+.tableToResearch{
+    border: none;
+}
+.tableToResearch td{
+    border: none;
+    background-color: rgb(235, 226, 244);
+}
+.delete .iconDelete{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: .5s;
+}
+.delete .iconDelete:hover{
+    transform: scale(1.2);
+}
